@@ -52,3 +52,10 @@ C:\Users\Yamato\source\repos\TWeb\CryptoWallet\obj\Debug\CryptoWallet.csproj.Cor
 C:\Users\Yamato\source\repos\TWeb\CryptoWallet\obj\Debug\CryptoWa.8D7A2934.Up2Date
 C:\Users\Yamato\source\repos\TWeb\CryptoWallet\obj\Debug\CryptoWallet.dll
 C:\Users\Yamato\source\repos\TWeb\CryptoWallet\obj\Debug\CryptoWallet.pdb
+C:\Users\Yamato\source\repos\TWeb\CryptoWallet\bin\Antlr3.Runtime.dll
+C:\Users\Yamato\source\repos\TWeb\CryptoWallet\bin\Newtonsoft.Json.dll
+C:\Users\Yamato\source\repos\TWeb\CryptoWallet\bin\System.Web.Optimization.dll
+C:\Users\Yamato\source\repos\TWeb\CryptoWallet\bin\WebGrease.dll
+C:\Users\Yamato\source\repos\TWeb\CryptoWallet\bin\Antlr3.Runtime.pdb
+C:\Users\Yamato\source\repos\TWeb\CryptoWallet\bin\Newtonsoft.Json.xml
+C:\Users\Yamato\source\repos\TWeb\CryptoWallet\bin\System.Web.Optimization.xml

@@ -1,3 +1,6 @@
+@using System.Web.Optimization;
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +13,25 @@
     <meta name="author" content="">
     <meta name="keywords" content="">
     <meta name="description" content="">
+
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/jqueryunobtrusive")
+    @Scripts.Render("~/bundles/jqueryajax")
+    @Scripts.Render("~/bundles/jqueryajaxunobtrusive")
+    @Scripts.Render("~/bundles/jqueryvalidate")
+    @Scripts.Render("~/bundles/jqueryvalidateunobtrusive")
+    @Scripts.Render("~/bundles/jqueryvalidateunobtrusivebootstrap")
+    @Scripts.Render("~/bundles/jqueryvalidatebootstrap")
+
+
+
+
 </head>
 <body>
 
