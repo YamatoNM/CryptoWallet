@@ -1,33 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
-namespace CryptoWallet.App_Start
+public class BundleConfig
 {
-    public class BundleConfig
+    public static void RegisterBundles(BundleCollection bundles)
     {
-        public static void RegisterBundles(BundleCollection bundles)
-        {
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+        // CSS Bundle
+        bundles.Add(new StyleBundle("~/bundles/css")
+            .Include("~/Content/css/normalize.css", new CssRewriteUrlTransform())
+            .Include("~/Content/css/swiper-bundle.min.css", new CssRewriteUrlTransform())
+            .Include("~/Content/css/vendor.css", new CssRewriteUrlTransform())
+            .Include("~/Content/bootstrap.min.css", new CssRewriteUrlTransform()) // Bootstrap CSS is in the Content folder
+            .Include("~/Content/css/style.css", new CssRewriteUrlTransform())); // Custom CSS last
 
-            bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.validate*"));
+        // JavaScript Bundle
+        bundles.Add(new ScriptBundle("~/bundles/js").Include(
+            "~/Scripts/jquery-1.11.0.min.js", // Corrected jQuery version based on your project
+            "~/Scripts/modernizr.js",
+            "~/Scripts/plugins.js",
+            "~/Scripts/script.js",
+            "~/Scripts/bootstrap.bundle.min.js", // Bootstrap JS is in the Scripts folder
+            "~/Scripts/chocolat.js", // Chocolat JS is in the Scripts folder
+            "~/Scripts/masonry.pkgd.min.js"
+        ));
 
-            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
+        // jQuery Validation Bundle
+        bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
+            "~/Scripts/jquery.validate.min.js",
+            "~/Scripts/jquery.validate.unobtrusive.min.js"
+        ));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
-
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
-
-            //BundleTable.EnableOptimizations = true;
-        }
+        // Enable bundling and minification
+        BundleTable.EnableOptimizations = true;
     }
 }

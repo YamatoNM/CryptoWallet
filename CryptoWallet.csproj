@@ -116,8 +116,46 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\css\normalize.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\css\swiper-bundle.min.css" />
+    <Content Include="Content\css\vendor.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\fonts\icomoon.css" />
+    <Content Include="Content\fonts\icomoon.svg" />
+    <Content Include="Content\images\association-brand1.png" />
+    <Content Include="Content\images\association-brand2.png" />
+    <Content Include="Content\images\association-brand3.png" />
+    <Content Include="Content\images\association-brand4.png" />
+    <Content Include="Content\images\association-brand5.png" />
+    <Content Include="Content\images\banner-image.png" />
+    <Content Include="Content\images\clients-item-lg1.jpg" />
+    <Content Include="Content\images\clients-item-lg2.jpg" />
+    <Content Include="Content\images\clients-item-lg3.jpg" />
+    <Content Include="Content\images\clients-item-lg4.jpg" />
+    <Content Include="Content\images\clients-item1.jpg" />
+    <Content Include="Content\images\clients-item2.jpg" />
+    <Content Include="Content\images\clients-item3.jpg" />
+    <Content Include="Content\images\collection-item1.jpg" />
+    <Content Include="Content\images\collection-item2.jpg" />
+    <Content Include="Content\images\collection-item3.jpg" />
+    <Content Include="Content\images\main-logo.png" />
+    <Content Include="Content\images\milad-fakurian-j6IEwWmiWtk-unsplash.jpg" />
+    <Content Include="Content\images\nft-item1.jpg" />
+    <Content Include="Content\images\nft-item2.jpg" />
+    <Content Include="Content\images\nft-item3.jpg" />
+    <Content Include="Content\images\nft-item4.jpg" />
+    <Content Include="Content\images\pattern-blur.png" />
+    <Content Include="Content\images\post-thumb-1.jpg" />
+    <Content Include="Content\images\post-thumb-2.jpg" />
+    <Content Include="Content\images\post-thumb-3.jpg" />
+    <Content Include="Content\images\reviewer-3.jpg" />
+    <Content Include="Content\images\reviewer-4.jpg" />
+    <Content Include="Content\images\ripple.svg" />
+    <Content Include="Content\images\single-image.jpg" />
+    <Content Include="Content\images\single-image1.png" />
+    <Content Include="Content\images\single-image2.png" />
     <Content Include="Fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -153,16 +191,24 @@
     <Content Include="Fonts\fontawesome-webfont.woff" />
     <Content Include="Fonts\fontawesome-webfont.ttf" />
     <Content Include="Fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\icomoon.eot" />
+    <Content Include="Content\fonts\icomoon.ttf" />
+    <Content Include="Content\fonts\icomoon.woff" />
     <None Include="Views\Home\index.cshtml" />
+    <Content Include="Scripts\chocolat.js" />
+    <Content Include="Scripts\jquery-1.11.0.min.js" />
+    <Content Include="Scripts\masonry.pkgd.min.js" />
+    <Content Include="Scripts\modernizr.js" />
+    <Content Include="Scripts\plugins.js" />
+    <Content Include="Scripts\script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Global.asax.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -170,6 +216,8 @@
     <None Include="packages.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Navbar.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -180,6 +228,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\NewFolder1\" />
     <Folder Include="Views\Patials\" />
   </ItemGroup>
   <PropertyGroup>

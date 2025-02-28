@@ -1,39 +1,36 @@
 @using System.Web.Optimization;
 
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home </title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-
-
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @Scripts.Render("~/bundles/jqueryval")
-    @Scripts.Render("~/bundles/jqueryui")
-    @Scripts.Render("~/bundles/jqueryunobtrusive")
-    @Scripts.Render("~/bundles/jqueryajax")
-    @Scripts.Render("~/bundles/jqueryajaxunobtrusive")
-    @Scripts.Render("~/bundles/jqueryvalidate")
-    @Scripts.Render("~/bundles/jqueryvalidateunobtrusive")
-    @Scripts.Render("~/bundles/jqueryvalidateunobtrusivebootstrap")
-    @Scripts.Render("~/bundles/jqueryvalidatebootstrap")
-
-
-
-
+    <title>@ViewBag.Title</title>
+    <!-- CSS Bundles -->
+    @Styles.Render("~/bundles/css")
+    <link rel="stylesheet" type="text/css" href="~/Content/fonts/icomoon.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="homepage bg-dark text-white">
+    <nav class="navbar navbar-expand-lg container-fluid p-4">
+        @Html.Partial("_Navbar")
+    </nav>
 
+    @RenderBody()
+
+    <footer id="footer" class="padding-large">
+        @Html.Partial("_Footer")
+    </footer>
+
+    <!-- JavaScript Bundles -->
+    @Scripts.Render("~/bundles/js")
+    @Scripts.Render("~/bundles/jqueryval")
+    <!-- External Scripts -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    @RenderSection("scripts", required: false)
 </body>
 </html>
