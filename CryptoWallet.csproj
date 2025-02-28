@@ -194,6 +194,7 @@
     <Content Include="Content\fonts\icomoon.eot" />
     <Content Include="Content\fonts\icomoon.ttf" />
     <Content Include="Content\fonts\icomoon.woff" />
+    <Content Include="Views\BuyCrypto\index.cshtml" />
     <None Include="Views\Home\index.cshtml" />
     <Content Include="Scripts\chocolat.js" />
     <Content Include="Scripts\jquery-1.11.0.min.js" />
@@ -207,6 +208,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BuyCryptoController.cs" />
+    <Compile Include="Controllers\SellCryptoController.cs" />
     <Compile Include="Global.asax.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -218,6 +221,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Navbar.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\SellCrypto\index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -228,7 +232,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\NewFolder1\" />
     <Folder Include="Views\Patials\" />
   </ItemGroup>
   <PropertyGroup>

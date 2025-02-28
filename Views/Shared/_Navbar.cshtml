@@ -1,6 +1,6 @@
 <div class="container-fluid">
     <div class="main-logo">
-        <a href="index.html">
+        <a href="@Url.Action("Index", "Home")">
             <!-- Corrected logo path -->
             <img src="~/Content/images/main-logo.png" alt="logo">
         </a>
@@ -20,19 +20,19 @@
             <div class="main-menu text-center d-lg-flex align-items-center ">
                 <ul class="menu-list list-unstyled d-lg-flex content-light m-0">
                     <li class="menu-item text-uppercase">
-                        <a class="fw-bold" href="index.html">Home</a>
+                        <a class="fw-bold" href="@Url.Action("Index", "Home")">Home</a>
                     </li>
                     <li class="menu-item text-uppercase">
-                        <a class="fw-bold" href="about.html">About</a>
+                        <a class="fw-bold" href="@Url.Action("About", "Home")">About</a>
                     </li>
                     <li class="menu-item text-uppercase">
-                        <a class="fw-bold" href="blog.html">Blog</a>
+                        <a class="fw-bold" href="@Url.Action("Index", "BuyCrypto")">Buy Crypto</a>
                     </li>
                     <li class="menu-item text-uppercase">
-                        <a class="fw-bold" href="services.html">Service</a>
+                        <a class="fw-bold" href="@Url.Action("Services", "Home")">Service</a>
                     </li>
                     <li class="menu-item text-uppercase">
-                        <a class="fw-bold" href="contact.html">Contact</a>
+                        <a class="fw-bold" href="@Url.Action("Contact", "Home")">Contact</a>
                     </li>
                 </ul>
             </div>

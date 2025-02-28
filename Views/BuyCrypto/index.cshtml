@@ -1,0 +1,88 @@
+﻿<div class="section-title text-center">
+    <div class="breadcrumbs">
+        <span class="item"><a href="@Url.Action("Index", "Home")">Home /</a></span>
+        <span class="item">Buy Crypto</span>
+    </div>
+    <h2>Buy Crypto</h2>
+
+</div>
+<div class="container mt-5">
+    <div class="row align-items-center">
+        <div class="col-auto">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="cryptoDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    Choose Crypto
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="cryptoDropdown">
+                    <li><a class="dropdown-item" href="#">Bitcoin (BTC)</a></li>
+                    <li><a class="dropdown-item" href="#">Ethereum (ETH)</a></li>
+                    <li><a class="dropdown-item" href="#">Ripple (XRP)</a></li>
+                    <li><a class="dropdown-item" href="#">Litecoin (LTC)</a></li>
+                    <li><a class="dropdown-item" href="#">Cardano (ADA)</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-auto">
+            <div class="d-flex align-items-center">
+
+                <input type="number" class="form-control text-white me-2" id="minAmount" placeholder="Enter minimum amount" style="max-height:40px;margin-top:20px; width: 220px; color:#44e5ae; border: 2px solid white;">
+
+                <button class="btn btn-primary" type="button" id="searchButton">Search</button>
+            </div>
+        </div>
+
+        <section id="subscribe" class="padding-large pattern-circle">
+            <div class="container">
+                <div class="product-item  border-set-bold border-rounded-10 py-5 px-4">
+                    <div class="icon-holder mt-2 d-flex align-items-center">
+                        <img class="border-rounded-50" src="https://avatars.githubusercontent.com/u/64400030?v=4&size=64" alt="Rounded Image" class="rounded me-2">
+                        <p class="mb-0">User: Monkey</p>
+                    </div>
+                    <div class="product-detail text-center">
+                        <div class="card-header">
+                            <h3 class="card-title light mt-3 mb-3 fs-3">BTC/EUR</h3>
+                            <span class="currency text-linear fs-5">90,301.63 EUR</span>
+                            <p class="mt-2">Price per 1 BTC</p>
+                        </div>
+                        <div class="mt-3">
+                            <p class="mb-2">Available: 0.0250049 BTC</p>
+                            <p class="mb-2">Limits: 250 - 2,257.98 EUR</p>
+
+                        </div>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-outline-accent btn-medium btn-rounded btn-medium text-uppercase">
+                                buy it
+                                now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="product-item  border-set-bold border-rounded-10 py-5 px-4">
+                    <div class="icon-holder mt-2 d-flex align-items-center">
+                        <img class="border-rounded-50" src="https://avatars.githubusercontent.com/u/64400030?v=4&size=64" alt="Rounded Image" class="rounded me-2">
+                        <p class="mb-0">User: Monkey</p>
+                    </div>
+                    <div class="product-detail text-center">
+                        <div class="card-header">
+                            <h3 class="card-title light mt-3 mb-3 fs-3">BTC/EUR</h3>
+                            <span class="currency text-linear fs-5">90,301.63 EUR</span>
+                            <p class="mt-2">Price per 1 BTC</p>
+                        </div>
+                        <div class="mt-8">
+                            <p class="mb-2">Available: 0.0250049 BTC</p>
+                            <p class="mb-2">Limits: 250 - 2,257.98 EUR</p>
+
+                        </div>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-outline-accent btn-medium btn-rounded btn-medium text-uppercase">
+                                buy it
+                                now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
