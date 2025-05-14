@@ -1,0 +1,4 @@
+C:\Users\Yamato\source\repos\TWeb\CryptoWallet\obj\Release\CryptoWallet.dll
+C:\Users\Yamato\source\repos\TWeb\CryptoWallet\obj\Release\CryptoWallet.pdb
+C:\Users\Yamato\source\repos\TWeb\CryptoWallet\obj\Release\CryptoWallet.Web.csproj.AssemblyReference.cache
+C:\Users\Yamato\source\repos\TWeb\CryptoWallet\obj\Release\CryptoWallet.Web.csproj.CoreCompileInputs.cache
