@@ -10,7 +10,6 @@ namespace CryptoWallet.Controllers
     {
         // GET: SellCrypto
         public ActionResult Index()
-
         {
             return View();
         }

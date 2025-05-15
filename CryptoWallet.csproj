@@ -195,7 +195,6 @@
     <Content Include="Content\fonts\icomoon.ttf" />
     <Content Include="Content\fonts\icomoon.woff" />
     <Content Include="Views\BuyCrypto\index.cshtml" />
-    <Content Include=".editorconfig" />
     <None Include="Views\Home\index.cshtml" />
     <Content Include="Scripts\chocolat.js" />
     <Content Include="Scripts\jquery-1.11.0.min.js" />
@@ -207,9 +206,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BuyCryptoController.cs" />
-    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\SellCryptoController.cs" />
     <Compile Include="Global.asax.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -234,16 +233,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Patials\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CryptoWallet.BusinesLogic\CryptoWallet.BusinesLogic.csproj">
-      <Project>{194b3502-54f0-47a3-a59a-fc58bf958c24}</Project>
-      <Name>CryptoWallet.BusinesLogic</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CryptoWallet.Domain1\CryptoWallet.Domain1.csproj">
-      <Project>{cb648a0f-f5d8-4ae7-a2b3-734217923d68}</Project>
-      <Name>CryptoWallet.Domain1</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

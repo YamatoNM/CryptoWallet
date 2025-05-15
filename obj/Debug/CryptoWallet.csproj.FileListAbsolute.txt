@@ -59,5 +59,3 @@ C:\Users\Yamato\source\repos\TWeb\CryptoWallet\bin\WebGrease.dll
 C:\Users\Yamato\source\repos\TWeb\CryptoWallet\bin\Antlr3.Runtime.pdb
 C:\Users\Yamato\source\repos\TWeb\CryptoWallet\bin\Newtonsoft.Json.xml
 C:\Users\Yamato\source\repos\TWeb\CryptoWallet\bin\System.Web.Optimization.xml
-C:\Users\boris\OneDrive\Документы\GitHub\CryptoWallet\obj\Debug\CryptoWallet.dll
-C:\Users\boris\OneDrive\Документы\GitHub\CryptoWallet\obj\Debug\CryptoWallet.pdb
