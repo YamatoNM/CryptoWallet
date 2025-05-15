@@ -1,14 +1,4 @@
 {
-  "ExpandedNodes": [
-    "",
-    "\\App_Start",
-    "\\Controllers",
-    "\\Models",
-    "\\Properties",
-    "\\Scripts",
-    "\\Views",
-    "\\Views\\Shared"
-  ],
-  "SelectedNode": "\\App_Start\\BundleConfig.cs",
+  "ExpandedNodes": [],
   "PreviewInSolutionExplorer": false
 }

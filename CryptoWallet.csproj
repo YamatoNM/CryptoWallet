@@ -209,6 +209,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BuyCryptoController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\SellCryptoController.cs" />
     <Compile Include="Global.asax.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -233,6 +234,16 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Patials\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CryptoWallet.BusinessLogic\CryptoWallet.BusinessLogic.csproj">
+      <Project>{87a19b96-688d-439c-b509-4b43ee05cbe0}</Project>
+      <Name>CryptoWallet.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CryptoWallet.Domain\CryptoWallet.Domain.csproj">
+      <Project>{8922f665-a312-4733-bdc2-584d122f8556}</Project>
+      <Name>CryptoWallet.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
